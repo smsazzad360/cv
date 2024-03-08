@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7f7f7;
+    font-family: serif;
+}
+
+.container {
+    max-width: 1000px;
+    background-image: linear-gradient(to right, #808B96, #85929E, #273746);
+    margin: 0 auto;
+    padding: 10px;
+
+
+}
+
+header {}
+
+.profile-images {
+    width: 120px;
+    ;
+    height: 120px;
+    ;
+    border: 50%;
+    border-radius: 60px;
+    float: left;
+
+}
+
+.name-bio {
+    float: left;
+    padding: 30px;
+
+}
+
+h1 {
+    color: #FF7514;
+    font-family: Tahoma;
+    -webkit-text-stroke: solid black;
+}
+
+h3,
+h2 {
+    color: #00d8fe;
+    font-family: Tahoma;
+    background-color: black;
+    max-width: 150px;
+
+}
+
+
+.header-contact {
+    float: right;
+    padding: 30px;
+
+}
+
+.header-contact p {
+    margin: 5px;
+}
+
+.header-contact p a {
+    text-decoration: none;
+
+    color: #00C3CB;
+
+}
+
+.header-contact p a:hover {
+    color: #FF7514;
+}
+
+.div-clear {
+    clear: both;
+
+}
+
+hr {
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
+
+/*-----------------------
+personal section  start 
+-------------------------*/
+#personal-section {}
+
+.content {
+    margin-bottom: 30px;
+
+}
+
+.left-div {
+    width: 30%;
+    float: left;
+}
+
+.right-div {
+    width: 70%;
+    float: left;
+
+}
+
+.common-hr {
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+
+
+}
+
+/*-------------------
+skills start
+--------------------*/
+span {
+    color: rgb(255, 253, 253);
+}
+
+/*------------------
+skill end
+/*------------------
+/*------------------
+bottomcontainer satart
+-------------------*/
+.bottom-container {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.bottom-container a {
+    color: white;
+
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+    cursor: pointer;
+
+
+}
+
+.bottom-container p {
+    color: white;
+    margin-top: 20px;
+
+}
+
+.bottom-container a:hover {
+    color: #ff6a00;
+    text-decoration: underline;
+    max-width: fit-content;
+    background-color: white;
+}
+
+/*------------------
+bottomcontainer end
+-------------------*/
